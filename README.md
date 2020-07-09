@@ -18,17 +18,17 @@ start -t computers
 # Contributing
 Read the [Contribution Guidelines](#); here is the gist:
 
-1. Starting conditions should be general enough that anyone in your group could reasonably meet the condition.
-2. Starting conditions should not appropriate for a wide audience.
+1. Starting conditions should be general enough that anyone could reasonably meet the condition.
+2. Starting conditions should be appropriate for a wide audience.
 3. No profane language.
 4. Wording should be careful.
-5. People should feel good or neutral after hearing your question.
+5. People should feel good or neutral after hearing your condition
 
 
-# Features:
+# TODO:
 - [ ] cli tool (npm)
-- [ ] website
-- [ ] topics
+- [ ] website (github pages)
+- [ ] topics (emoji suffixed conditions)
 - [ ] community conditions
 - [ ] multiple languages
 - [ ] iOS app
