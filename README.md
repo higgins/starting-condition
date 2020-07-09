@@ -1,11 +1,18 @@
-# Poem
-How do you start?
-Its hard enough with one.
-And random is no fun.
-Try starting-condition!
+### Starting condition
+```
+How to start?
+Hard enough with one.
+Random is no fun.
+...starting-condition!
+```
 
+### Installation
 ```
 npm i start
+```
+
+### Usage
+```
 start
 # Who was the last person to make a sandwich?
 
@@ -15,9 +22,7 @@ start -l es
 start -t computers
 ```
 
-# Contributing
-Read the [Contribution Guidelines](#); here is the gist:
-
+### Contributing
 1. Starting conditions should be general enough that anyone could reasonably meet the condition.
 2. Starting conditions should be appropriate for a wide audience.
 3. No profane language.
@@ -25,7 +30,7 @@ Read the [Contribution Guidelines](#); here is the gist:
 5. People should feel good or neutral after hearing your condition
 
 
-# TODO:
+### TODO:
 - [ ] cli tool (npm)
 - [ ] website (github pages)
 - [ ] topics (emoji suffixed conditions)
