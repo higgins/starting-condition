@@ -1,0 +1,11 @@
+{
+  "name": "starting-condition",
+  "version": "1.0.0",
+  "description": "Questions to help you determine who goes first.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
