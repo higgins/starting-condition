@@ -1,6 +1,6 @@
-### Starting condition
+### Starting condition  🏁
 ```
-How to start game?
+How to start a game?
 Random is dull and no fun
 ...starting-condition!
 ```
