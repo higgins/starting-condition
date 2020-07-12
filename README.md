@@ -12,7 +12,7 @@ stated starting condition.
 
 ### Supported languages
 - English
-- Español (Spanish)
+- Español
 
 ### Installation
 ```
@@ -43,7 +43,7 @@ start -t computers
 5. People should feel good or neutral after hearing your condition
 
 #### Language support
-`starting-condition` currently supports English and Spanish languages. If you'd like
+`starting-condition` currently supports English and Spanish languages.
 
 #### How to contribute
 
