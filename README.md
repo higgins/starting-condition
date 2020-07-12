@@ -25,7 +25,7 @@ start
 # Who was the last person to make a sandwich?
 
 start -l es
-# Quien despertó lo más temprano
+# ¿Quien se despertó más temprano?
 
 start -t computers
 ```
