@@ -10,6 +10,9 @@ A random number is a fair starting condition but isn't very fun.
 With `starting-condition`, you and your group discuss who meets the
 stated starting condition.
 
+### Supported languages
+- English
+- Español (Spanish)
 
 ### Installation
 ```
