@@ -1,6 +1,6 @@
 {
     "name": "starting-condition",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Questions to help you determine who goes first.",
     "main": "index.js",
     "scripts": {

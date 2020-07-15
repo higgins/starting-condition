@@ -14,7 +14,7 @@ https://github.com/higgins/starting-condition
     `);
   }
   conditions = CONDITIONS[lang];
-  return conditions[Math.floor(Math.random() * conditions.length - 1)];
+  return conditions[Math.floor(Math.random() * conditions.length)];
 };
 
 if (global.window) {
