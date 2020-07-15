@@ -10,15 +10,43 @@
   <body>
     <header>
       <label for="languages">Language:</label>
-      <select name="languages" id="languages">
-        <option value="English">English</option>
-        <option value="Español">Español</option>
+      <select name="languages" id="languages" onchange="render()">
+        <option value="en">English</option>
+        <option value="es" selected="selected">Español</option>
       </select>
     </header>
     <main>
-      <p>starting condition...</p>
+      <p id="condition"></p>
       <p id="hint">(click for more)</p>
     </main>
-    <footer>made by <a href="https://twitter.com/justinprojects">Justin Higgins</a> and <a href="https://github.com/higgins/starting-condition/graphs/contributors">contributors like you</a>.</footer>
+    <footer><span id="madeBy">made by </span><a href="https://twitter.com/justinprojects">Justin Higgins</a><span id="us"> and </span><a id="you" href="https://github.com/higgins/starting-condition/graphs/contributors">contributors like you</a>.</footer>
   </body>
+  <script>
+    const condition = document.getElementById('condition');
+    const languages = document.getElementById('languages');
+    const hint = document.getElementById('hint');
+    const madeBy = document.getElementById('madeBy');
+    const us = document.getElementById('us');
+    const you = document.getElementById('you');
+    const i18n = {
+        en: {
+            hint: '(click for more)',
+            footer: ['made by ', ' and ', 'contributors like you'],
+        },
+        es: {
+            hint: '(haga clic para más)',
+            footer: ['hecho por ', ' y ', 'gente como tú'],
+        },
+    };
+
+    function render() {
+        const language = languages.options[languages.selectedIndex].value;
+        hint.innerHTML = i18n[language].hint;
+        madeBy.innerHTML = i18n[language].footer[0];
+        us.innerHTML = i18n[language].footer[1];
+        you.innerHTML = i18n[language].footer[2];
+        condition.innerHTML = startingCondition(language);
+    }
+    render();
+  </script>
 </html>
