@@ -1,4 +1,5 @@
 ### Starting condition  🏁
+[https://startingcondition.com](https://startingcondition.com)
 ```
 How to start a game?
 Random is dull and no fun
@@ -30,15 +31,15 @@ start -l es
 
 ### Contributing
 #### Architecture
-1. Starting conditions are stored in a single file of their corresponding language (eg: English is `en.txt`)
-2. Each line is a starting condition to be chosen at random.
+1. Starting conditions are stored in a single JSON file of their corresponding language (eg: English is `en.json`)
+2. Each file is an array of strings representing a starting condition to display at random.
 
 #### Guidlines
 1. Starting conditions should be general enough that anyone could reasonably meet the condition.
-2. Starting conditions should be appropriate for a wide audience.
+2. Starting conditions should be appropriate for a wide audience (children).
 3. No profane language.
 4. Wording should be careful.
-5. People should feel good or neutral after hearing your condition
+5. People should feel good or neutral after hearing the starting condition.
 
 #### Language support
 `starting-condition` currently supports English and Spanish languages.
@@ -50,14 +51,14 @@ start -l es
 2. Submit a pull request against this repo's master branch [higgins/starting-branch#master](https://github.com/higgins/starting-condition/compare)
 
 ##### To a new language
-1. Create a new language file named `XY.txt` where 'XY' is the [corresponding two-letter-code for your language](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes)
-2. Translate [all the conditions listed here](https://raw.githubusercontent.com/higgins/starting-condition/master/en.txt?token=AAGV446MAZOEJ4FDLIRQTPK7BJKC2) to your new language file.
+1. Create a new language file named `XY.json` where 'XY' is the [corresponding two-letter-code for your language](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes)
+2. Translate [all the conditions listed here](https://raw.githubusercontent.com/higgins/starting-condition/master/en.json) to your new language file.
 3. Add new conditions to the end of that file.
 4. Submit a pull request against this repo's master branch [higgins/starting-branch#master](https://github.com/higgins/starting-condition/compare)
 
 ### TODO:
-- [ ] website (github pages)
-- [ ] publish package with versioning mechanism (npm)
+- [X] website (github pages)
+- [X] publish package with versioning mechanism (npm)
 - [ ] topics (emoji suffixed conditions)
 - [X] community conditions
 - [X] multiple languages
