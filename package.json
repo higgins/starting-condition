@@ -4,6 +4,7 @@
     "description": "Questions to help you determine who goes first.",
     "main": "index.js",
     "scripts": {
+        "bundle": "browserify index.js -o bundle.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bin": {
@@ -12,11 +13,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "browserify": "^16.5.1",
         "minimist": "^1.2.5"
     },
     "files": [
         "index.js",
         "cli.js",
+        "bundle.js",
         "en.json",
         "es.json"
     ]
