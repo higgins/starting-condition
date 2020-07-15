@@ -11,13 +11,13 @@
     <header>
       <label for="languages">Language:</label>
       <select name="languages" id="languages" onchange="render()">
-        <option value="en">English</option>
-        <option value="es" selected="selected">Español</option>
+        <option value="en" selected="selected">English</option>
+        <option value="es">Español</option>
       </select>
     </header>
     <main>
       <p id="condition"></p>
-      <p id="hint">(click for more)</p>
+      <button id="hint" onclick="render()">More</button>
     </main>
     <footer><span id="madeBy">made by </span><a href="https://twitter.com/justinprojects">Justin Higgins</a><span id="us"> and </span><a id="you" href="https://github.com/higgins/starting-condition/graphs/contributors">contributors like you</a>.</footer>
   </body>
@@ -30,17 +30,19 @@
     const you = document.getElementById('you');
     const i18n = {
         en: {
-            hint: '(click for more)',
+            hint: 'More',
             footer: ['made by ', ' and ', 'contributors like you'],
         },
         es: {
-            hint: '(haga clic para más)',
+            hint: 'Más',
             footer: ['hecho por ', ' y ', 'gente como tú'],
         },
     };
 
     function render() {
         const language = languages.options[languages.selectedIndex].value;
+        const path = language === 'en' ? '/' : `/${language}`;
+        window.history.pushState("", "", path);
         hint.innerHTML = i18n[language].hint;
         madeBy.innerHTML = i18n[language].footer[0];
         us.innerHTML = i18n[language].footer[1];
