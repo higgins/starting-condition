@@ -58,7 +58,7 @@ start -l es
 
 ### TODO:
 - [X] website (github pages)
-- [X] publish package with versioning mechanism (npm)
+- [ ] publish package with versioning mechanism (npm)
 - [ ] topics (emoji suffixed conditions)
 - [X] community conditions
 - [X] multiple languages
