@@ -1,18 +1,23 @@
 {
     "name": "starting-condition",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Questions to help you determine who goes first.",
     "main": "index.js",
     "scripts": {
-        "build": "cp index.js dist/index.js && cp *.txt dist/",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bin": {
-        "start": "index.js"
+        "start": "cli.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "minimist": "^1.2.5"
-    }
+    },
+    "files": [
+        "index.js",
+        "cli.js",
+        "en.json",
+        "es.json"
+    ]
 }

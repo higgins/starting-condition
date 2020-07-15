@@ -16,7 +16,7 @@ stated starting condition.
 
 ### Installation
 ```
-npm i start
+npm i starting-condition
 ```
 
 ### Usage
@@ -26,8 +26,6 @@ start
 
 start -l es
 # ¿Quien se despertó más temprano?
-
-start -t computers
 ```
 
 ### Contributing
