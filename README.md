@@ -58,7 +58,7 @@ start -l es
 
 ### TODO:
 - [X] website (github pages)
-- [ ] publish package with versioning mechanism (npm)
+- [X] publish package with versioning mechanism (npm)
 - [ ] subjunctivo tense bruh
 - [ ] alias /{lang} paths
 - [ ] topics (emoji suffixed conditions)
