@@ -60,7 +60,7 @@ start -l es
 - [X] website (github pages)
 - [X] publish package with versioning mechanism (npm)
 - [ ] subjunctivo tense bruh
-- [ ] alias /{lang} paths
+- [X] alias /{lang} paths
 - [ ] topics (emoji suffixed conditions)
 - [X] community conditions
 - [X] multiple languages

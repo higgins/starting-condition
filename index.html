@@ -67,8 +67,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         },
     };
 
-    function render() {
-        const language = languages.options[languages.selectedIndex].value;
+    function render(lang) {
+        const language = lang || languages.options[languages.selectedIndex].value;
         const path = language === 'en' ? '/' : `/${language}`;
         window.history.pushState("", "", path);
         hint.innerHTML = i18n[language].hint;
@@ -77,7 +77,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         you.innerHTML = i18n[language].footer[2];
         condition.innerHTML = startingCondition(language);
     }
-    render();
+    // NOTE: initial render, use our lang from url path if present
+    const pathLang = window.location.pathname.split('/')[1];
+    const initLang = pathLang.length === 2 ? pathLang : '';
+    render(pathLang);
   </script>
 
 </html>
