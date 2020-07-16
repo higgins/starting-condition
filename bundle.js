@@ -24,7 +24,7 @@ module.exports=[
     "Who most recently visited a river?",
     "Who most recently visited the ocean?",
     "Who most recently harvested a fruit or vegetable?",
-    "Who most recently went go camping?",
+    "Who most recently went camping?",
     "Who most recently watched a movie?",
     "Who most recently flossed their teeth?",
     "Who most recently planted a seed in soil?",
