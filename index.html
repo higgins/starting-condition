@@ -56,6 +56,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const madeBy = document.getElementById('madeBy');
     const us = document.getElementById('us');
     const you = document.getElementById('you');
+    const optionsIndices = ['en', 'es'];
     const i18n = {
         en: {
             hint: 'More',
@@ -68,7 +69,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     };
 
     function render(lang) {
-        const language = lang || languages.options[languages.selectedIndex].value;
+        if (lang) {
+            // NOTE: set the languages specified in URL in the dropdown
+            const selectedIndex = optionsIndices.indexOf(lang);
+            if (selectedIndex > 0) {
+                languages.selectedIndex = selectedIndex.toString();
+            }
+        }
+        const language = languages.options[languages.selectedIndex].value;
         const path = language === 'en' ? '/' : `/${language}`;
         window.history.pushState("", "", path);
         hint.innerHTML = i18n[language].hint;
