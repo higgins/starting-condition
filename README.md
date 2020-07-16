@@ -17,7 +17,7 @@ stated starting condition.
 
 ### Installation
 ```
-npm i starting-condition
+npm i -g starting-condition
 ```
 
 ### Usage
