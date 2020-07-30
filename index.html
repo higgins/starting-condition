@@ -15,32 +15,49 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
           align-items: center;
           justify-content: space-between;
           height: 100vh;
-          margin: 0;
+          margin: auto;
           padding: 10vh;
+          max-width: 960px;
       }
       header {
           padding: 10px;
-      }
-      main {
           display: flex;
           flex-direction: column;
           align-items: center;
       }
+      header > img {
+          width: 300px;
+          max-width: 30vw;
+          margin-bottom: 5px;
+      }
+      main {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+      h1 {
+          font-size: 4rem;
+      }
       footer {
           padding: 10px;
+          font-size: 1.5rem;
+          text-align: center;
       }
     </style>
   </head>
   <body>
     <header>
-      <label for="languages">Language:</label>
-      <select name="languages" id="languages" onchange="render()">
-        <option value="en" selected="selected">English</option>
-        <option value="es">Español</option>
-      </select>
+      <img src="./iconTitle.png"></img>
+      <div>
+        <label for="languages">Language:</label>
+        <select name="languages" id="languages" onchange="render()">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
     </header>
     <main>
-      <h1 id="condition"></h1>
+      <h1 id="condition" onclick="render()"></h1>
       <div>
         <button id="hint" onclick="render()">More</button>
       </div>
