@@ -48,7 +48,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     <header>
       <img src="./iconTitle.png"></img>
       <div>
-        <label for="languages">Language:</label>
+        <label id="languageLabel" for="languages">Language:</label>
         <select name="languages" id="languages" onchange="render()">
           <option value="en" selected="selected">English</option>
           <option value="es">Español</option>
@@ -68,6 +68,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   <script>
     const condition = document.getElementById('condition');
     const languages = document.getElementById('languages');
+    const languageLabel = document.getElementById('languageLabel');
     const hint = document.getElementById('hint');
     const madeBy = document.getElementById('madeBy');
     const us = document.getElementById('us');
@@ -75,10 +76,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const optionsIndices = ['en', 'es'];
     const i18n = {
         en: {
+            languageLabel: 'Language:',
             hint: 'More',
             footer: ['made by ', ' and ', 'contributors like you'],
         },
         es: {
+            languageLabel: 'Idioma:',
             hint: 'Más',
             footer: ['hecho por ', ' y ', 'gente como tú'],
         },
@@ -95,6 +98,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         const language = languages.options[languages.selectedIndex].value;
         const path = language === 'en' ? '/' : `/${language}`;
         window.history.pushState("", "", path);
+        languageLabel.innerHTML = i18n[language].languageLabel;
         hint.innerHTML = i18n[language].hint;
         madeBy.innerHTML = i18n[language].footer[0];
         us.innerHTML = i18n[language].footer[1];
