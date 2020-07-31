@@ -21,8 +21,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
       }
       header {
           padding: 10px;
-          display: flex;
-          flex-direction: column;
+          flex: 1;
       }
       header > img {
           width: 300px;
@@ -30,17 +29,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
           margin-bottom: 5px;
       }
       main {
-          display: flex;
-          flex-direction: column;
+          flex: 3;
           text-align: center;
       }
       h1 {
           font-size: 4rem;
       }
-      footer {
-          padding: 10px;
-          font-size: 1.5rem;
-          text-align: center;
+      #subtitle {
+          font-size: 14px;
+          margin-bottom: 5px;
       }
     </style>
   </head>
@@ -48,6 +45,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     <header>
       <img src="./iconTitle.png"></img>
       <div>
+        <div id="subtitle"><span id="madeBy">made by </span><a href="https://twitter.com/justinprojects">Justin Higgins</a><span id="us"> and </span><a id="you" href="https://github.com/higgins/starting-condition/graphs/contributors">contributors like you</a>.</div>
         <label id="languageLabel" for="languages">Language:</label>
         <select name="languages" id="languages" onchange="render()">
           <option value="en" selected="selected">English</option>
@@ -61,7 +59,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         <button id="hint" onclick="render()">More</button>
       </div>
     </main>
-    <footer><span id="madeBy">made by </span><a href="https://twitter.com/justinprojects">Justin Higgins</a><span id="us"> and </span><a id="you" href="https://github.com/higgins/starting-condition/graphs/contributors">contributors like you</a>.</footer>
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
     <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
   </body>
