@@ -57,10 +57,4 @@ start -l es
 4. Submit a pull request against this repo's master branch [higgins/starting-branch#master](https://github.com/higgins/starting-condition/compare)
 
 ### TODO:
-- [X] website (github pages)
-- [X] publish package with versioning mechanism (npm)
-- [ ] subjunctivo tense bruh
 - [ ] better mobile legibility
-- [X] alias /{lang} paths
-- [X] community conditions
-- [X] multiple languages
