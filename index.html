@@ -45,7 +45,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     <header>
       <img src="./iconTitle.png"></img>
       <div>
-        <div id="subtitle"><span id="madeBy">made by </span><a href="https://twitter.com/justinprojects">Justin Higgins</a><span id="us"> and </span><a id="you" href="https://github.com/higgins/starting-condition">contributors like you</a>.</div>
+        <div id="subtitle"><span id="madeBy">made by </span><a id="you" href="https://github.com/higgins/starting-condition">contributors like you</a>.</div>
         <label id="languageLabel" for="languages">Language:</label>
         <select name="languages" id="languages" onchange="render()">
           <option value="en" selected="selected">English</option>
@@ -68,19 +68,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const languageLabel = document.getElementById('languageLabel');
     const hint = document.getElementById('hint');
     const madeBy = document.getElementById('madeBy');
-    const us = document.getElementById('us');
     const you = document.getElementById('you');
     const optionsIndices = ['en', 'es'];
     const i18n = {
         en: {
             languageLabel: 'Language:',
             hint: 'More',
-            footer: ['made by ', ' and ', 'contributors like you'],
+            footer: ['made by ', 'contributors like you'],
         },
         es: {
             languageLabel: 'Idioma:',
             hint: 'Más',
-            footer: ['hecho por ', ' y ', 'gente como tú'],
+            footer: ['hecho por ', 'gente como tú'],
         },
     };
 
@@ -98,8 +97,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         languageLabel.innerHTML = i18n[language].languageLabel;
         hint.innerHTML = i18n[language].hint;
         madeBy.innerHTML = i18n[language].footer[0];
-        us.innerHTML = i18n[language].footer[1];
-        you.innerHTML = i18n[language].footer[2];
+        you.innerHTML = i18n[language].footer[1];
         condition.innerHTML = startingCondition(language);
     }
     // NOTE: initial render, use our lang from url path if present
