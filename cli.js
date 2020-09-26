@@ -35,6 +35,7 @@ Update with "\x1b[33mnpm update -g starting-condition\x1b[0m"
 const LANGUAGES = {
   en: ['English', 'Starting condition'],
   es: ['Español', 'Condición inicial'],
+  fr: ['Français', 'Condition de départ'],
 };
 
 if (argv.h || argv.help) {

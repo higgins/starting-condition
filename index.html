@@ -53,6 +53,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         <select name="languages" id="languages" onchange="render()">
           <option value="en" selected="selected">English</option>
           <option value="es">Español</option>
+          <option value="fr">Français</option>
         </select>
       </div>
     </header>
@@ -73,7 +74,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const description = document.getElementById('description');
     const madeBy = document.getElementById('madeBy');
     const you = document.getElementById('you');
-    const optionsIndices = ['en', 'es'];
+    const optionsIndices = ['en', 'es', 'fr'];
     const i18n = {
         en: {
             languageLabel: 'Language:',
@@ -84,6 +85,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
             languageLabel: 'Idioma:',
             hint: 'Más',
             footer: ['Un proyecto abierto para responder "¿Quien empieza?"', 'Hecho por ', 'gente como tú'],
+        },
+        fr: {
+            languageLabel: 'Langue:',
+            hint: 'plus',
+            footer: ['Un projet ouvert pour répondre "Qui passe en premier?"', 'faite par ', 'des contributeurs comme vous'],
         },
     };
 

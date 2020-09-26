@@ -14,6 +14,7 @@ stated starting condition.
 ### Supported languages
 - English
 - Español
+- Français
 
 ### Installation
 ```
@@ -30,6 +31,10 @@ start -l es
 ```
 
 ### Contributing
+#### Contributors
+- [higgins](https://github.com/higgins)
+- [rgesulfo](https://github.com/rgesulfo)
+
 #### Architecture
 1. Starting conditions are stored in a single JSON file of their corresponding language (eg: English is `en.json`)
 2. Each file is an array of strings representing a starting condition to display at random.

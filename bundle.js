@@ -86,7 +86,7 @@ module.exports=[
     "¿Quién tiene más paginas de internet abiertas?",
     "¿Quién tiene menos paginas de internet abiertas?",
     "¿Quién esta llevado el más ropa azul?",
-    "¿Quién tiene el más alarmas en el telefono?",
+    "¿Quién tiene el más alarmas en el teléfono?",
     "¿Quién tiene el más archivos en el escritorio?",
     "¿Quién tiene el más cosas en el bolsillo?",
     "¿Quién durmió más anoche?",
@@ -132,14 +132,91 @@ module.exports=[
     "¿Quién fue la última persona que ha tomado una foto con familia?",
     "¿Quién fue la última persona que ha sentado en cerca de un fuego?",
     "¿Quién fue la última persona que ha visitado una cascada?",
-    "¿Quién fue la última persona que ha sacado la basura?",
+    "¿Quién fue la última persona que ha sacado la basura?"
 ]
 
 },{}],3:[function(require,module,exports){
+module.exports=[
+  "Qui est allé le plus récemment à un concert ?",
+  "Qui a joué le plus récemment en public ?",
+  "Qui a visité le plus récemment un autre pays ?",
+  "Parmi les pays les plus récents que vous avez visités, lequel était le plus éloigné ?",
+  "Qui a pris le plus gros petit-déjeuner aujourd'hui ?",
+  "Qui a le plus d'e-mails non lus aujourd'hui ?",
+  "Qui a le moins d'e-mails non lus ?",
+  "Qui a le plus d'onglets de navigateur ouverts ?",
+  "Qui a le moins d'onglets de navigateur ouverts ?",
+  "Qui porte le plus de la couleur bleue ?",
+  "Qui a le plus d'alarmes sur son téléphone ?",
+  "Qui a le plus de fichiers sur son bureau ?",
+  "Qui a le plus de choses dans sa poche ?",
+  "Qui a le plus dormi la nuit dernière ?",
+  "Qui a fait le dernier câlin ?",
+  "Qui a donné le dernier high five ?",
+  "Qui a le plus récemment fini de lire un livre ?",
+  "Qui a parlé le plus récemment à un parent hors de la maison ?",
+  "Qui a le plus récemment organisé une fête ?",
+  "Qui a caressé le plus récemment un animal ?",
+  "Qui a visité le plus récemment un lac ?",
+  "Qui a visité le plus récemment une rivière ?",
+  "Qui a visité l'océan le plus récemment ?",
+  "Qui a récolté le plus récemment un fruit ou un légume ?",
+  "Qui est allé camper le plus récemment ?",
+  "Qui a regardé un film le plus récemment ?",
+  "Qui a passé la soie dentaire le plus récemment ?",
+  "Qui a planté le plus récemment une graine dans le sol ?",
+  "Qui a récemment mis en pot une plante ?",
+  "Qui a récemment fait un cadeau à quelqu'un ?",
+  "Qui a écouté le plus récemment un LP (album) complet ?",
+  "Qui a cuisiné le plus récemment pour quelqu'un d'autre ?",
+  "Qui a le plus récemment griffonné un doodle ?",
+  "Qui a dansé le plus récemment ?",
+  "Qui a eu le plus récemment un bébé ?",
+  "Qui a volé le plus récemment dans un avion ?",
+  "Qui a voyagé le plus récemment dans un train ?",
+  "Qui a pris le métro le plus récemment ?",
+  "Qui s'est réveillé le plus tôt ?",
+  "Qui a joué le plus récemment d'un instrument ?",
+  "Qui a récemment préparé une boisson chaude ?",
+  "Qui a bu le plus récemment un grand verre d'eau ?",
+  "Qui a récemment pressé du jus ?",
+  "Qui est allé le plus récemment à une fête d'anniversaire ?",
+  "Qui a allumé le plus récemment une lumière ?",
+  "Qui est allé le plus récemment dans un musée ?",
+  "Qui a reçu le plus récemment un nouvel article vestimentaire ?",
+  "Qui a touché le plus récemment la saleté ?",
+  "Qui a le plus récemment filé un haut ?",
+  "Qui a récemment lancé une balle ?",
+  "Qui a le plus récemment regardé un animal ?",
+  "Qui a récemment terminé la bande dessinée / le roman graphique ?",
+  "Qui a pris une photo le plus récemment ?",
+  "Qui a pris une photo le plus récemment avec un membre de la famille ?",
+  "Qui s'est assis le plus récemment près d'un feu ?",
+  "Qui a visité le plus récemment une cascade ?",
+  "Qui a vidé la poubelle le plus récemment ?",
+  "Qui est descendu le plus récemment sur Internet ?",
+  "Qui porte le plus de couleur rouge ?",
+  "Qui porte le plus de couleur jaune ?",
+  "Qui a écrit le plus récemment une lettre ?",
+  "Qui a peint le plus récemment ?",
+  "Qui est le plus récemment tombé sur des meubles ?",
+  "Qui est allé le plus récemment chez le dentiste ?",
+  "Qui a mangé le plus gros repas la semaine dernière ?",
+  "Qui a exercé le plus récemment ?",
+  "Qui a le plus récemment utilisé un service public ?",
+  "Qui a pris le petit déjeuner le plus sucré ?",
+  "Qui a bu le plus d'eau aujourd'hui ?",
+  "Qui prend les prochaines vacances ?",
+  "Qui a pris les dernières vacances ?",
+  "Qui a voyagé le plus aujourd'hui ?"
+]
+
+},{}],4:[function(require,module,exports){
 (function (global){
 const en = require('./en.json');
 const es = require('./es.json');
-const CONDITIONS = { en, es };
+const fr = require('./fr.json');
+const CONDITIONS = { en, es, fr };
 
 function startingCondition(lang) {
   if (!CONDITIONS.hasOwnProperty(lang)) {
@@ -163,4 +240,4 @@ if (global.window) {
 module.exports = startingCondition;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./en.json":1,"./es.json":2}]},{},[3]);
+},{"./en.json":1,"./es.json":2,"./fr.json":3}]},{},[4]);
