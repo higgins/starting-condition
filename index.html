@@ -115,6 +115,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const pathLang = window.location.pathname.split('/')[1];
     const initLang = pathLang.length === 2 ? pathLang : '';
     render(pathLang);
-  </script>
 
+    document.body.onkeyup = (e) => {
+      // spacebar
+      if(e.keyCode == 32) {
+          render()
+      }
+    }
+  </script>
 </html>
