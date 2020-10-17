@@ -39,7 +39,7 @@ start -l es
 1. Starting conditions are stored in a single JSON file of their corresponding language (eg: English is `en.json`)
 2. Each file is an array of strings representing a starting condition to display at random.
 
-#### Guidlines
+#### Guidelines
 1. Starting conditions should be general enough that anyone could reasonably meet the condition.
 2. Starting conditions should be appropriate for a wide audience (children).
 3. No profane language.
