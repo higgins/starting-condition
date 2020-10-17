@@ -52,7 +52,7 @@ start -l es
 #### How to contribute
 
 ##### To an existing language
-1. Add new conditions to the end of the language file you wish to contribute to
+1. Add new conditions to the end of the language file you wish to contribute to. (It would also help, but is not required, if you could add translations of your conditions in any other of the supported languages that you know.)
 2. Submit a pull request against this repo's master branch [higgins/starting-branch#master](https://github.com/higgins/starting-condition/compare)
 
 ##### To a new language
