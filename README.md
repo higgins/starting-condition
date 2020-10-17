@@ -47,7 +47,7 @@ start -l es
 5. People should feel good or neutral after hearing the starting condition.
 
 #### Language support
-`starting-condition` currently supports English and Spanish languages.
+`starting-condition` currently supports English, Spanish and French languages.
 
 #### How to contribute
 
