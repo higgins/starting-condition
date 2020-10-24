@@ -71,7 +71,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const condition = document.getElementById('condition');
     const languages = document.getElementById('languages');
     const languageLabel = document.getElementById('languageLabel');
-    const onlyLatest = document.getElementById('onlyLatestVal').checked;
+    const onlyLatest = document.getElementById('onlyLatestVal');
     const onlyLatestLabel = document.getElementById('onlyLatest');
     const hint = document.getElementById('hint');
     const description = document.getElementById('description');
@@ -116,7 +116,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         description.innerHTML = i18n[language].footer[0];
         madeBy.innerHTML = i18n[language].footer[1];
         you.innerHTML = i18n[language].footer[2];
-        condition.innerHTML = startingCondition(language, onlyLatest);
+        condition.innerHTML = startingCondition(language, onlyLatest.checked);
     }
     // NOTE: initial render, use our lang from url path if present
     const pathLang = window.location.pathname.split('/')[1];
