@@ -43,6 +43,7 @@ if (argv.h || argv.help) {
   options:
     -h, --help         Prints this help information
     -l, --language     Select language [${Object.keys(LANGUAGES)}]
+    -f, --fresh        Only show recent conditions
     -n,                Do not check for latest version
     -a                 View available languages
   `)
@@ -68,7 +69,9 @@ if (argv.l || argv.language) {
   language = Object.keys(LANGUAGES).includes(selectedLang) ? selectedLang : language;
 }
 
-const condition = start(language);
+const onlyLatest = !!(argv.f || argv.fresh);
+
+const condition = start(language, onlyLatest);
 const starting = `
   \x1b[33m${LANGUAGES[language][1]}:\x1b[0m
 

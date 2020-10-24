@@ -35,9 +35,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
       h1 {
           font-size: 4rem;
       }
-      #condition {
-          cursor: pointer;
-      }
       .subtitle {
           margin-bottom: 5px;
       }
@@ -50,15 +47,19 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         <div class="subtitle"><span id="description">An open project to answer "Who goes first?"</span></div>
         <div class="subtitle"><span id="madeBy">Made by </span><a id="you" href="https://github.com/higgins/starting-condition">contributors like you</a>.</div>
         <label id="languageLabel" for="languages">Language:</label>
-        <select name="languages" id="languages" onchange="render()">
+        <select class="subtitle" name="languages" id="languages" onchange="render()">
           <option value="en" selected="selected">English</option>
           <option value="es">Español</option>
           <option value="fr">Français</option>
         </select>
+        <div class="subtitle">
+          <input type="checkbox" id="onlyLatestVal" name="onlyLatest" value="onlyLastest" checked onchange="render()">
+          <label id="onlyLatest" for="onlyLatest"> Only show newly added conditions.</label><br>
+        </div>
       </div>
     </header>
     <main>
-      <h1 id="condition" onclick="render()"></h1>
+      <h1 id="condition"></h1>
       <div>
         <button id="hint" onclick="render()">More</button>
       </div>
@@ -70,6 +71,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const condition = document.getElementById('condition');
     const languages = document.getElementById('languages');
     const languageLabel = document.getElementById('languageLabel');
+    const onlyLatest = document.getElementById('onlyLatestVal').checked;
+    const onlyLatestLabel = document.getElementById('onlyLatest');
     const hint = document.getElementById('hint');
     const description = document.getElementById('description');
     const madeBy = document.getElementById('madeBy');
@@ -78,16 +81,19 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const i18n = {
         en: {
             languageLabel: 'Language:',
+            onlyLatest: ' Only new conditions.',
             hint: 'More',
             footer: ['An open project to answer "Who goes first?"', 'Made by ', 'contributors like you'],
         },
         es: {
             languageLabel: 'Idioma:',
+            onlyLatest: ' Solo nuevas condiciones.',
             hint: 'Más',
             footer: ['Un proyecto abierto para responder "¿Quien empieza?"', 'Hecho por ', 'gente como tú'],
         },
         fr: {
             languageLabel: 'Langue:',
+            onlyLatest: ' Seulement de nouvelles conditions.',
             hint: 'plus',
             footer: ['Un projet ouvert pour répondre "Qui passe en premier?"', 'faite par ', 'des contributeurs comme vous'],
         },
@@ -105,11 +111,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         const path = language === 'en' ? '/' : `/${language}`;
         window.history.pushState("", "", path);
         languageLabel.innerHTML = i18n[language].languageLabel;
+        onlyLatestLabel.innerHTML = i18n[language].onlyLatest;
         hint.innerHTML = i18n[language].hint;
         description.innerHTML = i18n[language].footer[0];
         madeBy.innerHTML = i18n[language].footer[1];
         you.innerHTML = i18n[language].footer[2];
-        condition.innerHTML = startingCondition(language);
+        condition.innerHTML = startingCondition(language, onlyLatest);
     }
     // NOTE: initial render, use our lang from url path if present
     const pathLang = window.location.pathname.split('/')[1];
@@ -118,7 +125,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
     document.body.onkeyup = (e) => {
       // spacebar
-      if(e.keyCode == 32) {
+      if (e.keyCode == 32 || e.keyCode == 13) {
           render()
       }
     }
