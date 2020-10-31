@@ -71,13 +71,18 @@
         "Qui a bu le plus d'eau aujourd'hui ?",
         "Qui prend les prochaines vacances ?",
         "Qui a pris les dernières vacances ?",
-        "Qui a voyagé le plus aujourd'hui ?"
-    ],
-    "latest": [
+        "Qui a voyagé le plus aujourd'hui ?",
         "Qui a parlé le plus récemment avec un voisin?",
         "Qui a fait du calcul le plus récemment avec un stylo ou un crayon?",
         "Qui a fait le plus récemment une cure de désintoxication numérique?",
         "Qui a le plus récemment créé des cookies?",
         "Qui a récemment nettoyé quelque chose en profondeur?"
+    ],
+    "latest": [
+        "Qui a voté le plus récemment à une élection publique?",
+        "Qui a écouté le plus récemment un vinyle, un CD ou une cassette?",
+        "Qui a joué le plus récemment à un jeu de société?",
+        "Qui est allé le plus récemment en classe?",
+        "Qui a récemment mangé les restes de quelqu'un d'autre?"
     ]
 }

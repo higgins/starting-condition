@@ -72,14 +72,19 @@ module.exports={
         "Who drank the most water today?",
         "Who is taking the next vacation?",
         "Who took the last vacation?",
-        "Who travelled the most today?"
-    ],
-    "latest": [
+        "Who travelled the most today?",
         "Who most recently talked with a neighbor?",
         "Who most recently did some math with pen or pencil?",
         "Who most recently did a digital detox?",
         "Who most recently made cookies?",
         "Who most recently deep cleaned something?"
+    ],
+    "latest": [
+        "Who most recently voted in a public election?",
+        "Who most recently listened to a vinyl, cd or tape?",
+        "Who most recently played a board game?",
+        "Who most recently went to a class?",
+        "Who most recently ate someone else's leftovers?"
     ]
 }
 
@@ -142,14 +147,19 @@ module.exports={
         "¿Quién fue la última persona que ha tomado una foto con familia?",
         "¿Quién fue la última persona que ha sentado en cerca de un fuego?",
         "¿Quién fue la última persona que ha visitado una cascada?",
-        "¿Quién fue la última persona que ha sacado la basura?"
-    ],
-    "latest": [
+        "¿Quién fue la última persona que ha sacado la basura?",
         "¿Quién fue la última persona que ha hablado con un vecino?",
         "¿Quién fue la última persona que habia hecho matematicas con una pluma o lapiz?",
         "¿Quién fue la última persona que habia hecho una desintoxicación digital?",
         "¿Quién fue la última persona que ha concinado galletes?",
         "¿Quién fue la última persona que ha limpiado profundamente algo?"
+    ],
+    "latest": [
+        "¿Quién fue la última persona que ha votado en una elección pública?",
+        "¿Quién fue la última persona que ha escuchado una vinyl, disco o cinta?",
+        "¿Quién fue la última persona que ha jugado una juego de mesa?",
+        "¿Quién fue la última persona que ha attendido una clase?",
+        "¿Quién fue la última persona que ha comido la comida de otra persona?"
     ]
 }
 
@@ -227,14 +237,19 @@ module.exports={
         "Qui a bu le plus d'eau aujourd'hui ?",
         "Qui prend les prochaines vacances ?",
         "Qui a pris les dernières vacances ?",
-        "Qui a voyagé le plus aujourd'hui ?"
-    ],
-    "latest": [
+        "Qui a voyagé le plus aujourd'hui ?",
         "Qui a parlé le plus récemment avec un voisin?",
         "Qui a fait du calcul le plus récemment avec un stylo ou un crayon?",
         "Qui a fait le plus récemment une cure de désintoxication numérique?",
         "Qui a le plus récemment créé des cookies?",
         "Qui a récemment nettoyé quelque chose en profondeur?"
+    ],
+    "latest": [
+        "Qui a voté le plus récemment à une élection publique?",
+        "Qui a écouté le plus récemment un vinyle, un CD ou une cassette?",
+        "Qui a joué le plus récemment à un jeu de société?",
+        "Qui est allé le plus récemment en classe?",
+        "Qui a récemment mangé les restes de quelqu'un d'autre?"
     ]
 }
 

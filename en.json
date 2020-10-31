@@ -71,13 +71,18 @@
         "Who drank the most water today?",
         "Who is taking the next vacation?",
         "Who took the last vacation?",
-        "Who travelled the most today?"
-    ],
-    "latest": [
+        "Who travelled the most today?",
         "Who most recently talked with a neighbor?",
         "Who most recently did some math with pen or pencil?",
         "Who most recently did a digital detox?",
         "Who most recently made cookies?",
         "Who most recently deep cleaned something?"
+    ],
+    "latest": [
+        "Who most recently voted in a public election?",
+        "Who most recently listened to a vinyl, cd or tape?",
+        "Who most recently played a board game?",
+        "Who most recently went to a class?",
+        "Who most recently ate someone else's leftovers?"
     ]
 }

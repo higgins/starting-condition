@@ -56,13 +56,18 @@
         "¿Quién fue la última persona que ha tomado una foto con familia?",
         "¿Quién fue la última persona que ha sentado en cerca de un fuego?",
         "¿Quién fue la última persona que ha visitado una cascada?",
-        "¿Quién fue la última persona que ha sacado la basura?"
-    ],
-    "latest": [
+        "¿Quién fue la última persona que ha sacado la basura?",
         "¿Quién fue la última persona que ha hablado con un vecino?",
         "¿Quién fue la última persona que habia hecho matematicas con una pluma o lapiz?",
         "¿Quién fue la última persona que habia hecho una desintoxicación digital?",
         "¿Quién fue la última persona que ha concinado galletes?",
         "¿Quién fue la última persona que ha limpiado profundamente algo?"
+    ],
+    "latest": [
+        "¿Quién fue la última persona que ha votado en una elección pública?",
+        "¿Quién fue la última persona que ha escuchado una vinyl, disco o cinta?",
+        "¿Quién fue la última persona que ha jugado una juego de mesa?",
+        "¿Quién fue la última persona que ha attendido una clase?",
+        "¿Quién fue la última persona que ha comido la comida de otra persona?"
     ]
 }
