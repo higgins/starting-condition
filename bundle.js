@@ -82,14 +82,19 @@ module.exports={
         "Who most recently listened to a vinyl, cd or tape?",
         "Who most recently played a board game?",
         "Who most recently went to a class?",
-        "Who most recently ate someone else's leftovers?"
-    ],
-    "latest": [
+        "Who most recently ate someone else's leftovers?",
         "Who most recently started reading a book?",
         "Who most recently stubbed their toe?",
         "Who most recently stargazed?",
         "Who most recently watched the sun set?",
-        "Who most recently ate a dessert?"
+        "Who most recently ate a dessert?",
+    ],
+    "latest": [
+        "Who most recently built or assembled furniture?",
+        "Who most recently made their bed with new sheets?",
+        "Who most recently canceled a subscription?",
+        "Who most recently made soup?",
+        "Who most recently gave an awkward COVID-19 handshake/hug?"
     ]
 }
 
