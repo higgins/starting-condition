@@ -92,14 +92,19 @@ module.exports={
         "Who most recently made their bed with new sheets?",
         "Who most recently canceled a subscription?",
         "Who most recently made soup?",
-        "Who most recently gave an awkward COVID-19 handshake/hug?"
-    ],
-    "latest": [
+        "Who most recently gave an awkward COVID-19 handshake/hug?",
         "Who most recently cleaned dishes?",
         "Who most recently ate food that was too spicy?",
         "Who most recently bounced a ball?",
         "Who went to bed the earliest last night?",
         "Who most recently went for a walk with no destination in mind?"
+    ],
+    "latest": [
+        "Who most recently ate a raw vegetable?",
+        "Who most recently visited a park?",
+        "Who most recently picked up trash that wasn't theirs?",
+        "Who most recently made a gift for someone?",
+        "Who had the best meal last week?"
     ]
 }
 
