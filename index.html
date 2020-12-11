@@ -54,14 +54,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         </select>
         <div class="subtitle">
           <input type="checkbox" id="onlyLatestVal" name="onlyLatest" value="onlyLastest" checked onchange="render()">
-          <label id="onlyLatest" for="onlyLatest"> Only show newly added conditions.</label><br>
+          <label id="onlyLatest" for="onlyLatest"> Only show recently added conditions.</label><br>
         </div>
       </div>
     </header>
     <main>
       <h1 id="condition"></h1>
       <div>
-        <button id="hint" onclick="render()">More</button>
+        <button id="hint" onclick="render()">New condition</button>
       </div>
     </main>
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
@@ -81,20 +81,20 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const i18n = {
         en: {
             languageLabel: 'Language:',
-            onlyLatest: ' Only new conditions.',
-            hint: 'More',
+            onlyLatest: ' Only recently added conditions.',
+            hint: 'New condition',
             footer: ['An open project to answer "Who goes first?"', 'Made by ', 'contributors like you'],
         },
         es: {
             languageLabel: 'Idioma:',
             onlyLatest: ' Solo nuevas condiciones.',
-            hint: 'Más',
+            hint: 'Nueva condición',
             footer: ['Un proyecto abierto para responder "¿Quien empieza?"', 'Hecho por ', 'gente como tú'],
         },
         fr: {
             languageLabel: 'Langue:',
             onlyLatest: ' Seulement de nouvelles conditions.',
-            hint: 'plus',
+            hint: 'Nouvelle condition',
             footer: ['Un projet ouvert pour répondre "Qui passe en premier?"', 'faite par ', 'des contributeurs comme vous'],
         },
     };
