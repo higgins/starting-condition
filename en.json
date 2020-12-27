@@ -100,13 +100,18 @@
         "Who most recently ate a raw vegetable?",
         "Who most recently visited a park?",
         "Who most recently picked up trash that wasn't theirs?",
-        "Who most recently made a gift for someone?"
-    ],
-    "latest": [
+        "Who most recently made a gift for someone?",
         "Who most recently made a mistake?",
         "Who most recently took a stretch break?",
         "Who most recently cooked a new food recipe?",
         "Who most recently spoke in another mother tongue?",
         "Who most recently shouted?"
+    ],
+    "latest": [
+        "Who most recently inflated a tire?",
+        "Who most recently performed an early maintenance?",
+        "Who most recently peeled a fruit or vegetable?",
+        "Who most recently cooked beans?",
+        "Who most recently achieved a stated goal?"
     ]
 }
