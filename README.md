@@ -39,7 +39,7 @@ start -l es
 1. Starting conditions are stored in a single JSON file of their corresponding language (eg: English is `en.json`)
 2. Each file is an array of strings representing a starting condition to display at random.
 
-#### Guidlines
+#### Guidelines
 1. Starting conditions should be general enough that anyone could reasonably meet the condition.
 2. Starting conditions should be appropriate for a wide audience (children).
 3. No profane language.
@@ -47,12 +47,12 @@ start -l es
 5. People should feel good or neutral after hearing the starting condition.
 
 #### Language support
-`starting-condition` currently supports English and Spanish languages.
+`starting-condition` currently supports English, Spanish and French languages.
 
 #### How to contribute
 
 ##### To an existing language
-1. Add new conditions to the end of the language file you wish to contribute to
+1. Add new conditions to the end of the language file you wish to contribute to. (It would also help, but is not required, if you could add translations of your conditions in any other of the supported languages that you know.)
 2. Submit a pull request against this repo's master branch [higgins/starting-branch#master](https://github.com/higgins/starting-condition/compare)
 
 ##### To a new language
