@@ -3,7 +3,7 @@ const es = require('./es.json');
 const fr = require('./fr.json');
 const CONDITIONS = { en, es, fr };
 
-function startingCondition(lang) {
+function startingCondition(lang, onlyLatest) {
   if (!CONDITIONS.hasOwnProperty(lang)) {
     throw new Error(`
 Unknown language: ${lang}.
@@ -14,7 +14,7 @@ If you'd like to contribute, please visit:
 https://github.com/higgins/starting-condition
     `);
   }
-  conditions = CONDITIONS[lang];
+  conditions = onlyLatest ? CONDITIONS[lang].latest : CONDITIONS[lang].archive.concat(CONDITIONS[lang].latest);
   return conditions[Math.floor(Math.random() * conditions.length)];
 };
 
