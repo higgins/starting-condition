@@ -52,7 +52,7 @@ module.exports={
         "Who most recently spun a top?",
         "Who most recently threw a ball?",
         "Who most recently had a stare down with an animal?",
-        "Who most recently finished comicbook/graphic novel?",
+        "Who most recently finished a comicbook/graphic novel?",
         "Who most recently took a photo?",
         "Who most recently took a photo with a family member?",
         "Who most recently sat near a fire?",
@@ -111,14 +111,19 @@ module.exports={
         "Who most recently performed an early maintenance?",
         "Who most recently peeled a fruit or vegetable?",
         "Who most recently cooked beans?",
-        "Who most recently achieved a stated goal?"
-    ],
-    "latest": [
+        "Who most recently achieved a stated goal?",
         "Who most recently sold something?",
         "Who most recently travelled a new path?",
         "Who most recently adopted something?",
         "Who most recently published a piece of writing?",
         "Who most recently forgot where they left their keys"
+    ],
+    "latest": [
+        "Who most recently donated something?",
+        "Who most recently did something new for their health?",
+        "Who most recently ate a meal of all vegetables?",
+        "Who most recently took a bath?",
+        "Who most recently walked barefoot?"
     ]
 }
 
