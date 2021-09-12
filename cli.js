@@ -36,6 +36,7 @@ const LANGUAGES = {
   en: ['English', 'Starting condition'],
   es: ['Español', 'Condición inicial'],
   fr: ['Français', 'Condition de départ'],
+  de: ['Deutsch', 'Ausgangsbedingung'],
 };
 
 if (argv.h || argv.help) {

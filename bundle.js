@@ -1,6 +1,136 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 module.exports={
     "archive": [
+        "Wer war zuletzt auf einem Konzert?",
+        "Wer ist zuletzt öffentlich aufgetreten?",
+        "Wer war zuletzt in einem anderen Land?",
+        "Wer hatte heute das üppigste Frühstück?",
+        "Wer hat heute die meisten ungelesenen Mails?",
+        "Wer hat heute die wenigsten ungelesenen Mails",
+        "Wer hat die meisten Tabs im Browser geöffnet?",
+        "Wer hat die wenigsten Tabs im Browser geöffnet?",
+        "Wer hat das meiste Blau in seiner heutigen Kleidung",
+        "Wer hat auf dem Smartphone die meisten Wecker/ Erinnerungen eingerichtet?",
+        "Wer hat die meisten Dateien auf dem Desktop liegen?",
+        "Wer hat die meisten Sachen in den Hosen- oder Kleidertaschen?",
+        "Wer hat die letzte Nacht am meisten geschlafen?",
+        "Wer hat zuletzt eine andere Person umarmt",
+        "Wer hat zuletzt ein High Five gegeben",
+        "Wer hat zuletzt ein Buch ausgelesen?",
+        "Wer hat zuletzt mit einer verwandten Person außerhalb des eigenen Haushalts gesprochen?",
+        "Wer hat zuletzt eine Party organisiert?",
+        "Wer hat zuletzt ein Tier gestreichelt?",
+        "Wer war zuletzt an einem See?",
+        "Wer war zuletzt an einem Fluss?",
+        "Wer war zuletzt am Meer?",
+        "Wer hat zuletzt Obst oder Gemüse geerntet?",
+        "Wer war zuletzt campen?",
+        "Wer war zuletzt im Kino?",
+        "Wer hat zuletzt Zahnseide verwendet?",
+        "Wer hat zuletzt einen Samen in Erde eingepflanzt?",
+        "Wer hat zuletzt eine Pflanze ein- oder umgetopft?",
+        "Wer hat zuletzt einer anderen Person etwas geschenkt?",
+        "Wer hat sich zuletzt ein komplettes Album angehört?",
+        "Wer hat zuletzt für eine andere Person gekocht?",
+        "Wer hat zuletzt etwas gekritzelt oder gezeichnet?",
+        "Wer hat zuletzt getanzt?",
+        "Wer hatte zuletzt ein Baby auf dem Arm?",
+        "Wer ist zuletzt mit dem Flugzeug geflogen?",
+        "Wer ist zuletzt mit dem Zug gefahren?",
+        "Wer ist zuletzt mit S- oder U-Bahn gefahren?",
+        "Wer ist heute am frühesten aufgewacht?",
+        "Wer hat zuletzt etwas auf einem Musikinstrument gespielt?",
+        "Wer hat zuletzt ein Heißgetränk zubereitet?",
+        "Wer hat zuletzt eiun ganzes Glas Wasser getrunken?",
+        "Wer hat zuletzt Saft gepresst?",
+        "Wer war zuletzt auf einer Geburtstagsparty?",
+        "Wer hat zuletzt ein Licht angeschalten?",
+        "Wer war zuletzt in einem Museum?",
+        "Wer hat zuletzt ein neues Kleidungsstück bekommen?",
+        "Wer hat zuletzt etwas Schmutziges angefasst?",
+        "Wer hat zuletzt einen Kreisel gedreht?",
+        "Wer hat zuletzt einen Bll geworfen?",
+        "Wer hat zuletzt ein Comic-Buch ausgelesen?",
+        "Wer hat zuletzt ein Foto gemacht?",
+        "Wer hat zuletzt ein Foto gemeinsam mit einem Familienmitglied gemacht?",
+        "Wer saß zuletzt an einem Feuer?",
+        "Wer hat zuletzt einen Wasserfall besucht?",
+        "Wer hat zuletzt den Mülleiner geleert?",
+        "Wer hat sich zuletzt im Internet verloren?",
+        "Wer trägt heute am meisten rot?",
+        "Wer trägt heute am meisten gelb?",
+        "Wer hat zuletzt einen Brief geschrieben?",
+        "Wer hat zuletzt gemalt?",
+        "Wer ist zuletzt gegen ein Möbelstück gestoßen?",
+        "Wer war zuletzt beim Zshnarzt?",
+        "Wer hatte in der letzten Woche das üppigste Mahl?",
+        "Wer hat zuletzt Sport gemacht?",
+        "Wer war zuletzt mit öffentlichen Verkehrsmitteln unterwegs?",
+        "Wer hatte das Frühstück mit dem meisten Zucker?",
+        "Wer hat heute am meisten Wasser getrunken?",
+        "Wer nimmt als nächstes Urlaub?",
+        "Wer war zuletzt im Urlaub?",
+        "Wer ist heute am weitesten gefahren?",
+        "Wer hat sich zuletzt mit Nachbarn unterhalten?",
+        "Wer hat zuletzt etwas im Kopf gerechnet?",
+        "Wer hat zuletzt eine digitale Detox-Pause eingelegt?",
+        "Wer hat zuletzt Kekse gebacken?",
+        "Wer hat zuletzt etwas gründlich gereinigt?",
+        "Wer hat sich zuletzt an einer Wahl beteiligt?",
+        "Wer hat zuletzt eine CD oder Kassette angehört?",
+        "Wer hat zuletzt ein Brettspiel gespielt?",
+        "Wer war zuletzt bei einer Fortbildung oder in einem formalen Lernangebot?",
+        "Wer hst zuletzt Reste gegessen",
+        "Wer hat zuletzt ein neues Buch zu lesen begonnen?",
+        "Wer hat sich zuletzt den Zeh angestoßen?",
+        "Wer hat zuletzt die Sterne angesehen?",
+        "Wer hat zuletzt bewusst den Sonnenaufgang beobachtet?",
+        "Wer hat zuletzt einen Nachtisch gegessen?",
+        "Wer hat zuletzt ein Möbelstück (zusammen)-gebaut?",
+        "Wer hat zuletzt das Bett neu bezogen?",
+        "Wer hat zuletzt ein Abo gekündigt?",
+        "Wer hat zuletzt Suppe gekocht?",
+        "Wer hat zuletzt Geschirr gespült?",
+        "Wer hat zuletzt etwas zu Scharfes gegessen?",
+        "Wer hat zuletzt einen Ball springen lassen?",
+        "Wer ist gestern am frühesten ins Bett gegangen?",
+        "Wer ist zuletzt ohne klares Ziel zu einem Spaziergang aufgebrochen?",
+        "Wer hat zuletzt Rohkost gegessen?",
+        "Wer war zuletzt in einem Park?",
+        "Wer hat zuletzt Müll aufgesammelt, der ncht von einem selbst war?",
+        "Wer hat zuletzt einer anderen Person etwas geschenkt?",
+        "Wer hat zuletzt einen Fehler gemacht?",
+        "Wer hat zuletzt Gymnastik gemacht?",
+        "Wer hat zuletzt ein neues Rezept ausprobiert?",
+        "Wer hat zuletzt in einer Fremdsprache geredet?",
+        "Wer hat zuletzt gebrüllt?",
+        "Wer hat zuletzt einen Reifen aufgepunpt?",
+        "Wer hat zuletzt eine Wartung durchgeführt oder beauftragt?",
+        "Wer hat zuletzt ein Stück Obst oder Gemüse geschält?",
+        "Wer hat zuletzt Bohnen gekocht?",
+        "Wer hat zuletzt ein selbst gestecktes Ziel erreicht?",
+        "Wer hat zuletzt etwas verkauft?",
+        "Wer ist zuletzt zum ersten Mal einen neuen Weg gelaufen?",
+        "Wer hat zuletzt etwas veröffentlicht?",
+        "Wer hat zuletzt nach den Schlüsseln gesucht?",
+        "Wer hat zuletzt etwas gespendet?",
+        "Wer hat zuletzt etwas Gutes für die eigene Gesundheit getan?",
+        "Wer hat zuletzt ein Gericht mit nur Gemüse gegessen?",
+        "Wer hat zuletzt in der Badewanne gebadet?",
+        "Wer ist zuletzt barfuß gelaufen?"
+    ],
+    "latest": [
+        "Wer hat zuletzt zuviel gegessen?",
+        "Bei wem war zuletzt ein Abfluss verstopft?",
+        "Wer hat zuletzt gefastet?",
+        "Wer ist zuletzt Achterbahn gefahren?",
+        "Wer hat zuletzt einen Film gesehen, der älter ist, als man selbst?"
+    ]
+}
+
+},{}],2:[function(require,module,exports){
+module.exports={
+    "archive": [
         "Who most recently went to a concert?",
         "Who most recently performed in public?",
         "Who most recently visited a different country?",
@@ -121,18 +251,24 @@ module.exports={
         "Who most recently did something new for their health?",
         "Who most recently ate a meal of all vegetables?",
         "Who most recently took a bath?",
-        "Who most recently walked barefoot?"
-    ],
-    "latest": [
+        "Who most recently walked barefoot?",
         "Who most recently overate?",
         "Who most recently clogged a drain?",
         "Who most recently fasted?",
         "Who most recently rode on a roller coaster?",
         "Who most recently watched a movie from before they were born?"
+    ],
+    "latest": [
+        "Who most recently scanned a document?",
+        "Who most recently donated blood?",
+        "Who most recently played fetch with a dog?",
+        "Who most recently fasted?",
+        "Who most recently turned off their phone for a day?",
+        "Who most recently slept outside?"
     ]
 }
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 module.exports={
     "archive": [
         "¿Quién fue la última persona que ha visitado a un concierto?",
@@ -207,7 +343,7 @@ module.exports={
     ]
 }
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 module.exports={
     "archive": [
         "Qui est allé le plus récemment à un concert ?",
@@ -297,12 +433,13 @@ module.exports={
     ]
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 (function (global){
 const en = require('./en.json');
 const es = require('./es.json');
 const fr = require('./fr.json');
-const CONDITIONS = { en, es, fr };
+const de = require('./de.json');
+const CONDITIONS = { en, es, fr, de };
 
 function startingCondition(lang, onlyLatest) {
   if (!CONDITIONS.hasOwnProperty(lang)) {
@@ -326,4 +463,4 @@ if (global.window) {
 module.exports = startingCondition;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./en.json":1,"./es.json":2,"./fr.json":3}]},{},[4]);
+},{"./de.json":1,"./en.json":2,"./es.json":3,"./fr.json":4}]},{},[5]);

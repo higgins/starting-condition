@@ -1,7 +1,8 @@
 const en = require('./en.json');
 const es = require('./es.json');
 const fr = require('./fr.json');
-const CONDITIONS = { en, es, fr };
+const de = require('./de.json');
+const CONDITIONS = { en, es, fr, de };
 
 function startingCondition(lang, onlyLatest) {
   if (!CONDITIONS.hasOwnProperty(lang)) {
