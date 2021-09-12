@@ -1,6 +1,6 @@
 {
     "name": "starting-condition",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "Questions to help you determine who goes first.",
     "main": "index.js",
     "scripts": {
@@ -21,6 +21,8 @@
         "cli.js",
         "bundle.js",
         "en.json",
-        "es.json"
+        "es.json",
+        "fr.json",
+        "de.json"
     ]
 }
