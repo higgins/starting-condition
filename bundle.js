@@ -434,7 +434,7 @@ module.exports={
 }
 
 },{}],5:[function(require,module,exports){
-(function (global){
+(function (global){(function (){
 const en = require('./en.json');
 const es = require('./es.json');
 const fr = require('./fr.json');
@@ -462,5 +462,5 @@ if (global.window) {
 
 module.exports = startingCondition;
 
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+}).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"./de.json":1,"./en.json":2,"./es.json":3,"./fr.json":4}]},{},[5]);
