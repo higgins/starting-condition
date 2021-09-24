@@ -15,6 +15,7 @@ stated starting condition.
 - English
 - Español
 - Français
+- Deutsch
 
 ### Installation
 ```
@@ -34,6 +35,8 @@ start -l es
 #### Contributors
 - [higgins](https://github.com/higgins)
 - [rgesulfo](https://github.com/rgesulfo)
+- [richardharrington](https://github.com/richardharrington)
+- [eBildungslabor](https://github.com/eBildungslabor)
 
 #### Architecture
 1. Starting conditions are stored in a single JSON file of their corresponding language (eg: English is `en.json`)
