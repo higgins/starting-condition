@@ -78,7 +78,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     const description = document.getElementById('description');
     const madeBy = document.getElementById('madeBy');
     const you = document.getElementById('you');
-    const optionsIndices = ['en', 'es', 'fr'];
+    // FIXME: gross, why isn't this based off i18n object below?
+    const optionsIndices = ['en', 'es', 'fr', 'de'];
     const i18n = {
         en: {
             languageLabel: 'Language:',
