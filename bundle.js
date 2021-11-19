@@ -264,7 +264,26 @@ module.exports={
         "Who most recently played fetch with a dog?",
         "Who most recently fasted?",
         "Who most recently turned off their phone for a day?",
-        "Who most recently slept outside?"
+        "Who most recently slept outside?",
+        "Who is wearing the most accessories?",
+        "Who most recently ate broccoli?",
+        "Who is wearing the most fun socks?",
+        "Who most recently swam in the ocean?",
+        "Who most recently customized an article of clothing?",
+        "Who drinks the most coffee?",
+        "Who drinks the most tea?",
+        "Who most recently washed their clothes?",
+        "Who owns the most hats?",
+        "Who most recently ate an almond?",
+        "Who bikes the most?",
+        "Who most recently rode a motorcycle?",
+        "Who has the biggest phone?",
+        "Who has the smallest phone?",
+        "Who most recently lost a pair of headphones?",
+        "Who owns the most hoodies?",
+        "Who most recently ate a taco?",
+        "Who has the most twitter follows?",
+        "Who has the fewest social media accounts?"
     ]
 }
 
