@@ -37,6 +37,7 @@ start -l es
 - [rgesulfo](https://github.com/rgesulfo)
 - [richardharrington](https://github.com/richardharrington)
 - [eBildungslabor](https://github.com/eBildungslabor)
+- [max-b](https://github.com/max-b)
 
 #### Architecture
 1. Starting conditions are stored in a single JSON file of their corresponding language (eg: English is `en.json`)
