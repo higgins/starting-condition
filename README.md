@@ -1,5 +1,6 @@
 ### Starting condition  🏁
-[https://startingcondition.com](https://startingcondition.com)
+[https://encapsulate.me/start](https://encapsulate.me/start)
+
 ```
 How to start a game?
 Random is dull and no fun
@@ -65,5 +66,4 @@ start -l es
 3. Add new conditions to the end of that file.
 4. Submit a pull request against this repo's master branch [higgins/starting-branch#master](https://github.com/higgins/starting-condition/compare)
 
-### TODO:
-- [ ] better mobile legibility
+> NOTE: this used to be hosted at `startingcondition.com` but now it's a [CHAD](https://github.com/higgins/awesome-chads)
